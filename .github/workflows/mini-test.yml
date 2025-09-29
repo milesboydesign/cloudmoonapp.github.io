@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: macbook
+    runs-on: self-hosted
     steps:
       - name: Print hello
         run: |
